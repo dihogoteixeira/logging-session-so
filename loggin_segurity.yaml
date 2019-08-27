@@ -1,0 +1,5 @@
+- name: Transferindo e executando script
+  hosts: all
+  tasks:
+     - name: Copiando e executando script 
+       script: ./scripts/loggin_segurity.yaml
